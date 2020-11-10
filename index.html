@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ToDo-List</title>
+ <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/04167212ca.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+ <div class="container">
+  <!-- image container -->
+  <div class="img-con">
+   <div class="img-bg">
+    <div class="headerText">
+     <h1>to-do list</h1>
+    </div>
+   </div>
+  </div>
+  <!-- image container ends -->
+
+  <!-- bottom layout -->
+  <div class="bottom-layout">
+   <!-- input field -->
+   <div class="inputField">
+    <input type="text" name="add task" id="taskInput" class="inputItem" placeholder="add task">
+    <input type="submit" value="Add todo" class="submit-btn" id="add">
+   </div>
+   <!-- input field ends -->
+
+   <!-- task area -->
+   <div class="allTasks">
+    <div class="tasks">
+     <ul class="todo-list">
+      <!-- <li>
+       <div class="actions">
+        <label class="form-check-label">
+         <input class="checkbox" type="checkbox" job="check" id="${id}"> God when
+       </div>
+       <i class="remove fas fa-times" job="delete"></i>
+      </li> -->
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!-- task area ends -->
+  <!-- clear -->
+  <div class="clearAll">
+   <hr>
+   <button class="btn btn-outline-primary btn-block" type="button" id="clear">Clear</button>
+  </div>
+ </div>
+ </div>
+ <script src="code.js"></script>
+</body>
+
+</html>
